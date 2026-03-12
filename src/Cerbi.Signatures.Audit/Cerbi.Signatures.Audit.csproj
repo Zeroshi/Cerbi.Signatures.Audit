@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Cerbi.Signatures.Audit</RootNamespace>
+    <PackageId>Cerbi.Signatures.Audit</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Zeroshi</Authors>
+    <Description>Developer helper methods for audit events in the Cerbi governance ecosystem.</Description>
+    <PackageTags>cerbi;governance;audit;signatures;logging</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cerbi.Governance.Schemas" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
